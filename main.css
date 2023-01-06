@@ -57,11 +57,11 @@ header .right a:hover{
 
 .scrolled{
     background-color: black;
-    color: white;
+    color: #F7F5EB;
 }
 
 .scrolled .right a{
-    color: white;
+    color: #F7F5EB;
 }
 
 /* About */
@@ -73,7 +73,7 @@ header .right a:hover{
 
 #about{
     height: 100vh;
-    width: 100vh;
+    width: 100vw;
     box-sizing: border-box;
     position: relative;
 }
@@ -112,7 +112,8 @@ header .right a:hover{
     padding-top: 20vh;
     padding-bottom: 20vh;
     box-sizing: border-box;
-    color: white;
+    color: #F7F5EB;
+    margin-bottom: -1px;
 }
 
 #work h2{
@@ -186,10 +187,52 @@ header .right a:hover{
 footer{
     background-color: black;
     text-align: center;
-    color: white;
+    color: #F7F5EB;
     padding-bottom: 3rem;
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     text-transform: uppercase;
     font-size: 0.9rem;
+    border-bottom: 10px solid black;
+}
+
+/* Responsiveness */
+@media screen and (max-width: 740px){
+    #work .item{
+        flex-basis: 100%;
+    }
+}
+
+@media screen and (max-width: 600px){
+    #about, #work{
+        padding-left: 10vw;
+        padding-right: 10vw;
+    }
+
+    #about .content{
+        width: 80vw;
+    }
+
+    #about h1{
+        font-size: 8.5vw;
+    }
+
+    #about p{
+        font-size: 1.3rem;
+    }
+}
+
+@media screen and (max-height: 540px){
+    #about{
+        min-height: 100vh;
+        padding-top: 20vh;
+        padding-bottom: 20vh;
+        height: auto;
+    }
+
+    #about .content{
+        top: 0;
+        position: relative;
+        transform: none;
+    }
 }
