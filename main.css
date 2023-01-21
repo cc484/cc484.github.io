@@ -72,8 +72,8 @@ header .right a:hover{
 }
 
 #about{
-    height: 100vh;
-    width: 100vw;
+    height: 50vh;
+    width: 50vw;
     box-sizing: border-box;
     position: relative;
 }
