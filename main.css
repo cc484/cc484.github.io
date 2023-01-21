@@ -99,9 +99,9 @@ header .right a:hover{
 
 #about p{
     margin-top: 10px;
-    font-family: 'EB Garamond', serif;
+    font-family: 'EB Garamond';
     font-size: 1.5rem;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 /* Films */
