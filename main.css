@@ -41,9 +41,8 @@ header .left{
 }
 
 header .right a{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'EB Garamond';
     font-weight: 300;
-    text-transform: uppercase;
     font-size: 0.9rem;
     margin-left: 10px;
     text-decoration: none;
@@ -188,9 +187,8 @@ footer{
     text-align: center;
     color: #F7F5EB;
     padding-bottom: 3rem;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'EB Garamond';
     font-weight: 300;
-    text-transform: uppercase;
     font-size: 0.9rem;
     border-bottom: 10px solid black;
 }
